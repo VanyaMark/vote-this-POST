@@ -59,6 +59,16 @@
         }
 
         // Codifica a partir de aquí
+
+        const voteBtn = document.querySelector('button');
+        voteBtn.addEventListener('click', async ()=>{
+
+            //Iteration 1 - add user's vote at Tu votación:
+            const userVote = document.querySelector('#userVote')
+            userVote.textContent = rangeControl.value;
+            
+        })
+
     </script>
 
 </body>
